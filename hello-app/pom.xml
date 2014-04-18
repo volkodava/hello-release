@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.demo.release</groupId>
     <artifactId>hello-app</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>com.demo.release</groupId>
         <artifactId>hello-release</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <properties>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.demo.release</groupId>
             <artifactId>hello-lib</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>
